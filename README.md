@@ -45,7 +45,7 @@ After installing node, this project will need nodemon too, so just run the follo
 
 ## Install
 
-    $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
+    $ git clone https://github.com/eagerdev12/shyam-kyle-graphql-server.git
     $ cd PROJECT_TITLE
     $ npm install
 
