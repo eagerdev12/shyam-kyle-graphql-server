@@ -36,6 +36,3 @@ restServer.use('/api', apiRoutes);
 restServer.listen(5000, () => {
     console.log(`rest-api server ready at http://localhost:5000/api`);
 })
-    .catch((error) => {
-        console.log('rest-api server start error: ', error);
-    });

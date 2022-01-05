@@ -22,19 +22,22 @@ Graphql Structures which I've set up.
 ├── services/
 ├── src/
 | ├── db
+| | ├── data
+| | ├── repo
+| | | ├── media.repo.js
 | ├── helpers
 | ├── data─ loaders
 | ├── middleware/
-| ├── schema/
-| ├── role/
+| ├── graphql
+| | ├── schema/
+| | ├── media/
+| | | ├── index.js
+| | | ├── media.resolvers.js
+| | | ├── media.types.js
 | | ├── index.js
-| | ├── role.resolvers.js
-| | ├── role.types.js
-| ├── user/
-| | ├── index.js
-| | ├── user.resolvers.js
-| | ├── user.types.js
-| ├── index.js
+| ├── rest
+| | ├── controllers/
+| | | ├── media.controller.js
 ├── index.js
 ├── package.json
 
